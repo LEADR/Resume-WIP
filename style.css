@@ -1,0 +1,122 @@
+/*
+
+*,
+*:before,
+*:after {
+	border: 1px dashed blue;
+}
+
+*/
+
+
+body {
+	font-family:Arial;
+	margin:0;
+
+}
+
+h1,h2,h3,h4,h5,h6,ul {
+  margin:0;
+}
+
+a:visited {
+	color:blue;
+}
+
+#contact_info {
+  display:inline-block;
+	text-align:left;
+  position: fixed;
+  float: left;
+  border-right: 12px double red;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+#content {
+  margin-left: 275px;
+  padding: 0;
+}
+
+footer {
+  display:none;
+  clear:both;
+}
+
+#name {
+  font-size:36px;
+}
+
+#contact, #social_links{
+	font-size:12px;
+	font-weight:normal;
+}
+
+#professional_experience {
+  padding: 24px 0 0 10px;
+}
+
+#professional_experience h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+#professional_experience ul {
+	font-size:14px;
+	margin-left:3em;
+}
+
+#education {
+ padding-left: 10px;
+ margin: 20px 0 20px 0;
+}
+
+#education h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+#interests {
+  padding-left: 10px;
+}
+
+.job_title {
+	padding-left:2em;
+}
+
+.duration {
+	font-style:italic;
+	padding-left:3em;
+	font-size:14px;
+}
+
+h2, h3 {
+	font-size:16px;
+}
+
+ul {
+	font-size:14px;
+}
+
+#education h3 {
+	margin-left:2em;
+}
+
+#school {
+	font-weight:bold;
+}
+
+#college_duration {
+	font-style:italic;
+	font-weight:normal;
+}
+
+#major {
+	font-weight:normal;
+}
+
+#interests ul {
+	margin-left:1em;
+}
